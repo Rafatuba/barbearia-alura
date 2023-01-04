@@ -41,7 +41,7 @@ nav a {
 }
 
 nav a:hover {
-	color: #000;
+	color: #121214;
 	text-shadow: 1px 1px 6px #E1E1E6;
 }
 
@@ -62,21 +62,12 @@ nav a:hover {
 	box-sizing: border-box;
 	border: solid 2px #E1E1E6;
 	border-radius: 30px 30px 30px 30px;
-	transition: 0.1s;
-}
-
-.produtos img {
-	width:100%;
-	border-radius: 20px;
-	transition: 300ms;
-}
-
-.produtos img:hover {
-	opacity: 0.5;
+	transition: 0.2s;
 }
 
 .produtos li:hover {
 	border-color: #C2B15E;
+	box-shadow: 3px 3px 10px #C2B15E;
 }
 
 .produtos li:hover h2 {
@@ -94,6 +85,17 @@ nav a:hover {
 .produtos li:active {
 	border: solid 2px #1F9654;
 	border-radius: 10px;
+	box-shadow: 5px 5px 10px #C2B15E;
+}
+
+.produtos img {
+	width:100%;
+	border-radius: 20px;
+	transition: 300ms;
+}
+
+.produtos img:hover {
+	opacity: 0.5;
 }
 
 .produtos h2 {
@@ -218,7 +220,7 @@ th, td {
 }
 
 .conteudo-principal {
-	width: 640px;
+	width: 740px;
 	margin: 0 auto;
 }
 
@@ -243,7 +245,7 @@ th, td {
 }
 
 .conteudo-beneficios {
-	width: 640px;
+	width: 740px;
 	margin: 0 auto;
 }
 
@@ -255,10 +257,12 @@ th, td {
 
 .img-beneficios {
 	transition: 400ms;
+	
 }
 
 .img-beneficios:hover {
 	opacity: 0.5;
+	box-shadow: 2px 1px 5px #fff;
 }
 
 .itens {
@@ -295,6 +299,6 @@ th, td {
 }
 
 .video {
-	width: 560px;
+	width: 660px;
 	margin: 2em auto;
 }
