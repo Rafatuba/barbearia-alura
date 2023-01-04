@@ -217,6 +217,7 @@ th, td {
 
 .principal p {
 	margin: 0 0 1em;
+	line-height: 1.4;
 }
 
 .conteudo-principal {
@@ -266,7 +267,7 @@ th, td {
 }
 
 .itens {
-	line-height: 2.5; /* espaçamento entre palavras */
+	line-height: 2.5; /* espaçamento entre linhas */
 }
 
 /*nth-child:pseudo-classes. Seleciona alguns itens da lista
