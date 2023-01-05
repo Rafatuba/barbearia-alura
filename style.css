@@ -2,6 +2,7 @@ body {
 	font-family: 'montserrat', sans-serif;
 	color: #E1E1E6;
 	background: #09090a;
+	background: url(src/black.jpg)
 }
 
 header {
@@ -48,7 +49,8 @@ nav a:hover {
 .produtos {
 	width: 940px;
 	margin: 0 auto;
-	padding: 100px 0;
+	padding: 100px 40px;
+	background: #121214;
 }
 
 .produtos li {
@@ -213,6 +215,8 @@ th, td {
 .principal {
 	padding: 3em 0;
 	background: #121214;
+	width: 940px;
+	margin: 0 auto;
 }
 
 .principal p {
@@ -302,4 +306,24 @@ th, td {
 .video {
 	width: 660px;
 	margin: 2em auto;
+}
+
+/*RESPONSIVIDADE*/
+
+@media screen and (max-width: 480px) {
+	body {
+		background: #121214;
+	}
+	.caixa, .principal, .conteudo-beneficios, .video, .mapa {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+	nav {
+		position: static;
+	}
+	.lista-beneficios, .img-beneficios {
+		width: 100%;
+	}
 }
